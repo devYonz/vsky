@@ -1,0 +1,83 @@
+# Python-related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+
+# Environment-related
+.env
+*.env
+*.venv
+*.virtualenv
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook-related
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.pid
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Cache files
+*.cache
+*.mypy_cache/
+*.pytest_cache/
+*.coverage
+htmlcov/
+
+# Configurations
+*.config
+*.settings
+*.secrets
+#ChatGPT Gen
+# IDE-specific
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Testing and linting
+.tox/
+.nox/
+coverage.xml
+*.coverage
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Others
+*.bak
+*.old
+*.orig
+
+# Notebook outputs
+*.ipynb~checkpoint
+*.checkpoint
+*.output
