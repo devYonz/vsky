@@ -32,7 +32,7 @@ from dotenv import load_dotenv
 load_dotenv("./yonz.env")
 
 # Access the values
-LOGIN_PASS = os.getenv('LOGIN_PASS')
+LOGIN_PASS = os.getenv('APP_PASS')
 
 async def start_stream(client: AsyncClient, pages=20):
     l("Starting stream")
